@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A03918121B4E118004E4685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A03918021B4E118004E4685 /* AppDelegate.swift */; };
+		6A03918621B4E118004E4685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A03918421B4E118004E4685 /* Main.storyboard */; };
+		6A03918B21B4E11C004E4685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A03918A21B4E11C004E4685 /* Assets.xcassets */; };
+		6A03918E21B4E11C004E4685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A03918C21B4E11C004E4685 /* LaunchScreen.storyboard */; };
+		6A24F00021B7531100018BAB /* ServerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A24EFFE21B7531100018BAB /* ServerCell.swift */; };
+		6A24F00121B7531100018BAB /* ServerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A24EFFF21B7531100018BAB /* ServerCell.xib */; };
+		6A24F00B21B7853400018BAB /* MobileNOCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A24F00A21B7853400018BAB /* MobileNOCModel.swift */; };
+		6A24F00D21B8B92C00018BAB /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A24F00C21B8B92C00018BAB /* PageController.swift */; };
+		6A2674C821B4F37C00090B25 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2674C721B4F37C00090B25 /* Response.swift */; };
+		6A2674CA21B4F4AF00090B25 /* MobileNOCServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2674C921B4F4AF00090B25 /* MobileNOCServer.swift */; };
+		6AF49D5321B637DD00942499 /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF49D5221B637DD00942499 /* FilterButton.swift */; };
+		6AF49D5521B637EA00942499 /* FilterButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF49D5421B637EA00942499 /* FilterButton.xib */; };
+		6AF49D5721B63BAF00942499 /* ServerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF49D5621B63BAF00942499 /* ServerListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A03917D21B4E118004E4685 /* MobileNOC Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobileNOC Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A03918021B4E118004E4685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A03918521B4E118004E4685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A03918A21B4E11C004E4685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A03918D21B4E11C004E4685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A03918F21B4E11C004E4685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A24EFFE21B7531100018BAB /* ServerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCell.swift; sourceTree = "<group>"; };
+		6A24EFFF21B7531100018BAB /* ServerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServerCell.xib; sourceTree = "<group>"; };
+		6A24F00A21B7853400018BAB /* MobileNOCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNOCModel.swift; sourceTree = "<group>"; };
+		6A24F00C21B8B92C00018BAB /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		6A2674C721B4F37C00090B25 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		6A2674C921B4F4AF00090B25 /* MobileNOCServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNOCServer.swift; sourceTree = "<group>"; };
+		6AF49D5221B637DD00942499 /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		6AF49D5421B637EA00942499 /* FilterButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterButton.xib; sourceTree = "<group>"; };
+		6AF49D5621B63BAF00942499 /* ServerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A03917A21B4E118004E4685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A03917421B4E118004E4685 = {
+			isa = PBXGroup;
+			children = (
+				6A03917F21B4E118004E4685 /* MobileNOC Test */,
+				6A03917E21B4E118004E4685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A03917E21B4E118004E4685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A03917D21B4E118004E4685 /* MobileNOC Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A03917F21B4E118004E4685 /* MobileNOC Test */ = {
+			isa = PBXGroup;
+			children = (
+				6A03918021B4E118004E4685 /* AppDelegate.swift */,
+				6A24F00421B7716F00018BAB /* Model */,
+				6AF49D5121B636E300942499 /* View */,
+				6AF49D4321B6282900942499 /* Controller */,
+				6A24F00521B771AF00018BAB /* Network */,
+				6A03918421B4E118004E4685 /* Main.storyboard */,
+				6A03918C21B4E11C004E4685 /* LaunchScreen.storyboard */,
+				6A03918A21B4E11C004E4685 /* Assets.xcassets */,
+				6A03918F21B4E11C004E4685 /* Info.plist */,
+			);
+			path = "MobileNOC Test";
+			sourceTree = "<group>";
+		};
+		6A24F00421B7716F00018BAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A2674C721B4F37C00090B25 /* Response.swift */,
+				6A24F00A21B7853400018BAB /* MobileNOCModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A24F00521B771AF00018BAB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6A2674C921B4F4AF00090B25 /* MobileNOCServer.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6AF49D4321B6282900942499 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AF49D5621B63BAF00942499 /* ServerListViewController.swift */,
+				6A24F00C21B8B92C00018BAB /* PageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6AF49D5121B636E300942499 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6AF49D5221B637DD00942499 /* FilterButton.swift */,
+				6AF49D5421B637EA00942499 /* FilterButton.xib */,
+				6A24EFFE21B7531100018BAB /* ServerCell.swift */,
+				6A24EFFF21B7531100018BAB /* ServerCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A03917C21B4E118004E4685 /* MobileNOC Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A03919221B4E11C004E4685 /* Build configuration list for PBXNativeTarget "MobileNOC Test" */;
+			buildPhases = (
+				6A03917921B4E118004E4685 /* Sources */,
+				6A03917A21B4E118004E4685 /* Frameworks */,
+				6A03917B21B4E118004E4685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobileNOC Test";
+			productName = "MobileNOC Test";
+			productReference = 6A03917D21B4E118004E4685 /* MobileNOC Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A03917521B4E118004E4685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = deepak;
+				TargetAttributes = {
+					6A03917C21B4E118004E4685 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6A03917821B4E118004E4685 /* Build configuration list for PBXProject "MobileNOC Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A03917421B4E118004E4685;
+			productRefGroup = 6A03917E21B4E118004E4685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A03917C21B4E118004E4685 /* MobileNOC Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A03917B21B4E118004E4685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A03918E21B4E11C004E4685 /* LaunchScreen.storyboard in Resources */,
+				6A03918B21B4E11C004E4685 /* Assets.xcassets in Resources */,
+				6A24F00121B7531100018BAB /* ServerCell.xib in Resources */,
+				6A03918621B4E118004E4685 /* Main.storyboard in Resources */,
+				6AF49D5521B637EA00942499 /* FilterButton.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A03917921B4E118004E4685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A24F00D21B8B92C00018BAB /* PageController.swift in Sources */,
+				6AF49D5721B63BAF00942499 /* ServerListViewController.swift in Sources */,
+				6A2674C821B4F37C00090B25 /* Response.swift in Sources */,
+				6A24F00B21B7853400018BAB /* MobileNOCModel.swift in Sources */,
+				6AF49D5321B637DD00942499 /* FilterButton.swift in Sources */,
+				6A03918121B4E118004E4685 /* AppDelegate.swift in Sources */,
+				6A24F00021B7531100018BAB /* ServerCell.swift in Sources */,
+				6A2674CA21B4F4AF00090B25 /* MobileNOCServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A03918421B4E118004E4685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A03918521B4E118004E4685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A03918C21B4E11C004E4685 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A03918D21B4E11C004E4685 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A03919021B4E11C004E4685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A03919121B4E11C004E4685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A03919321B4E11C004E4685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93KS3NJEU;
+				INFOPLIST_FILE = "MobileNOC Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deedam.MobileNOC-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6A03919421B4E11C004E4685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93KS3NJEU;
+				INFOPLIST_FILE = "MobileNOC Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deedam.MobileNOC-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A03917821B4E118004E4685 /* Build configuration list for PBXProject "MobileNOC Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A03919021B4E11C004E4685 /* Debug */,
+				6A03919121B4E11C004E4685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A03919221B4E11C004E4685 /* Build configuration list for PBXNativeTarget "MobileNOC Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A03919321B4E11C004E4685 /* Debug */,
+				6A03919421B4E11C004E4685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A03917521B4E118004E4685 /* Project object */;
+}
